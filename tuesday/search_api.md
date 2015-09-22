@@ -64,3 +64,9 @@ For docker [Official Docker](https://github.com/makuk66/docker-solr)
 No need to install tomcat anymore :D yay.
 
 1. Create a new core in solr admin gui. (must be a way to script this). Or just use the docker command.
+
+Addons:
+
+- Facets - a long way from being done.
+- Autocomplete
+- Saved Searches
