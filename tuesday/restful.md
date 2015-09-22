@@ -45,6 +45,8 @@ Always make sure that the api have a version number, even if you think it won't 
 - Deploy multiple versions of the API simultaneously.
 - Allow you to release it for the world and increase stability.
 
+Implemented by URL or by headers.
+
 ## Features
 - Developer Orientated - 100% Features Module Free
 - Everything is in CTools plugins
@@ -54,3 +56,26 @@ Always make sure that the api have a version number, even if you think it won't 
 <!-- @todo add image of plugin -->
 1. Create a class with an annotation.
 2. Map fields in the `publicFields()` method.
+
+You get these for free:
+- Sort
+- Filter
+- Fields
+- Range
+- Resource nesting
+
+
+## Output formats
+
+Defer output format to the client. This is good for multiple clients where they prefer diff. output formats.
+
+Plugins:
+- XML
+- jsonAPI
+- yml
+
+## Discoverable
+
+Do not write documentation. Allow people to discover the API.
+
+Create a resource that serves a resource. 
