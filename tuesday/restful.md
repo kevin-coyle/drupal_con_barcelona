@@ -78,4 +78,10 @@ Plugins:
 
 Do not write documentation. Allow people to discover the API.
 
-Create a resource that serves a resource. 
+Create a resource that serves a resource.
+
+## JSON API
+
+Use JSONAPi to avoid bikeshedding an API design.
+
+http://lb.cm/resful-dcon
