@@ -157,3 +157,9 @@ Offsite key storage. https://lockr.io for pantheon.
 - Enforce 2FA, strong passwords
 - Secure devices.
 - Build security consciousness
+
+## What to do
+
+- Rollback
+- Review
+- Reach out
