@@ -26,7 +26,7 @@ At no point does the user exp. any lag. Front end will serve previous version.
 
 Fresh        |         stale          |         Expired
 ---                   ---                     ---
-Content createed  ->  served from cache  ->  regenerate cache.
+Content created  ->  served from cache  ->  regenerate cache.
 
 
 ### Anticipated content generation.
@@ -36,4 +36,15 @@ Created content  -> Served from cache -> req. update ^ store
 
 This stops one unlucky user from getting a *CACHE MISS*
 
-### Heavy processes
+- Heavy processes.
+
+
+## Job servers
+
+- How to get results
+- Rerun filed jobs
+- Separated queue for failed jobs
+- Monitoring queues, workers.
+- Supervisor - deamon native for UNIX systems.
+
+Available in D7 for mongodb, memory, database, SQS, Beanstalkd
