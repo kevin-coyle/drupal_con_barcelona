@@ -29,9 +29,11 @@ Fresh        |         stale          |         Expired
 Content createed  ->  served from cache  ->  regenerate cache.
 
 
-### Ancitipaged content generation.
+### Anticipated content generation.
 
 Created content  -> Served from cache -> req. update ^ store
 
 
 This stops one unlucky user from getting a *CACHE MISS*
+
+### Heavy processes
